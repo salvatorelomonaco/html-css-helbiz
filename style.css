@@ -273,10 +273,40 @@ span {
     left: 100px;
 }
 
-.dove-siamo {
+.column2 {
     background-image: url("https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.column2 {
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.column2 h2 {
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.column2 p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.column2 a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 /*** Social ***/
@@ -316,5 +346,86 @@ span {
 
 footer {
     background-color: black;
-    height: 800px;
+}
+
+.container-footer {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: block;
+}
+
+.logo-bottom {
+    float: left;
+    width: 118px;
+    margin-right: 200px;
+}
+
+.links{
+    float: left;
+    width: 23%;
+    display: block;
+}
+
+footer h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+#bottom-footer {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.legal-stuff {
+    width: 25%;
+    float: left;
+}
+
+.legal-stuff i {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.legal-stuff span {
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.legal-stuff a {
+    color: white;
+}
+
+.download {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.download a {
+    padding:20px;
+}
+
+.download img {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
 }
