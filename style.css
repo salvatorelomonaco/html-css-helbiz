@@ -24,8 +24,6 @@
 .column {
     float: left;
     padding: 0 15px;
-    border: 1px solid black;
-    height: 500px;
 }
 
 .half.column  {
@@ -149,10 +147,174 @@ header {
 /*** inizio altre sezioni ... ***/
 #second {
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .product {
-    background-color: lightgrey;
-    padding: 10px;
-    height: 500px;
+    background-color: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.product img:last-child {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product p {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+span {
+    display: block;
+}
+
+.product a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #0070c8;
+}
+
+.product a:hover {
+    text-decoration: underline;
+    color: #0070c8;
+}
+
+#helbizgo {
+    height: 22px;
+}
+
+#helbizbike {
+    height: 22px;
+}
+
+/*** Third ***/
+
+/*** Fourth ***/
+
+.one.column {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    margin-left: 15px;
+}
+
+.text-one {
+    padding: 100px 95px 100px 0;
+    color: white;
+    float: right;
+    text-align: center;
+    width: 35%;
+}
+
+.text-one h2 {
+    font-size: 45px;
+}
+
+.text-one p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.text-one a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.text-one a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*** Half column ***/
+
+.column1 {
+    margin-top: 30px;
+    background-color: #33475b;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.column1 h2 {
+    font-size: 45px;
+    padding-top: 50px;
+}
+
+.column1 p {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.column1 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.column1 img {
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+
+.dove-siamo {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*** Social ***/
+
+.instagram {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#social-text {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 50px 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#social-text h3 {
+    font-size: 33px;
+}
+
+#social-text i {
+    color: black;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+/*** Footer ***/
+
+footer {
+    background-color: black;
+    height: 800px;
 }
