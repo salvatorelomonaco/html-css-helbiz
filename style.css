@@ -193,6 +193,64 @@ span {
 
 /*** Third ***/
 
+#third {
+    margin: auto;
+}
+
+.iphone-screen {
+    position: relative;
+    width: 70%;
+    margin: 0 auto 50px auto;;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.iphone-left-part {
+    width: 25%;
+    float: left;
+    font-size: 22px;
+}
+
+#content-iphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -86%);
+    height: 520px;
+}
+
+#border-iphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, -76%);
+    height: 630px;
+}
+
+.iphone-screen ul {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+.iphone-screen li:not(:first-child) {
+    list-style-type: circle;
+}
+
+.iphone-right-part {
+    float: right;
+    width: 25%;
+}
+
+.iphone-right-part h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.iphone-right-part span {
+    font-size: 14px;
+}
+
 /*** Fourth ***/
 
 .one.column {
