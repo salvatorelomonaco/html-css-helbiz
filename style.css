@@ -227,16 +227,6 @@ span {
     height: 630px;
 }
 
-.iphone-screen ul {
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-}
-
-.iphone-screen li:not(:first-child) {
-    list-style-type: circle;
-}
-
 .iphone-right-part {
     float: right;
     width: 25%;
@@ -317,6 +307,7 @@ span {
     text-decoration: none;
     color: white;
     font-size: 22px;
+    padding: 0 15px 0 15px;
 }
 
 .column1 a:hover {
