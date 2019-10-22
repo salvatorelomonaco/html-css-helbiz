@@ -346,12 +346,16 @@ span {
 
 footer {
     background-color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.container-footer {
+/*** First container ***/
+
+.first-container-footer {
     width: 1110px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-bottom: 100px;
     display: block;
 }
 
@@ -367,65 +371,79 @@ footer {
     display: block;
 }
 
-footer h3 {
+.first-container-footer h3 {
     color: white;
     text-transform: uppercase;
     font-size: 17px;
     margin-bottom: 20px;
 }
 
-footer a {
+.first-container-footer a {
     text-decoration: none;
     color: grey;
     font-size: 15px;
     line-height: 30px;
 }
 
-footer ul li {
+.first-container-footer ul li {
     list-style-type: none;
 }
 
-#bottom-footer {
+/*** Center container ***/
+
+.center-container-footer {
+    margin: 0 auto;
+    width: 1110px;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     display: block;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.social-footer {
+    width: 25%;
+    float: left;
+    color: white;
+    font-size: 18px;
+    margin-right: 45px;
+}
+
+.social-footer i {
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
 }
 
 .legal-stuff {
-    width: 25%;
+    width: 23%;
     float: left;
-}
-
-.legal-stuff i {
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    cursor: pointer;
 }
 
 .legal-stuff span {
     display: block;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 35px;
 }
 
 .legal-stuff a {
     color: white;
+    text-decoration: none;
 }
 
-.download {
+/*** Last container ***/
+
+.last-container-footer {
     margin: 0 auto;
     text-align: center;
 }
 
-.download a {
-    padding:20px;
+.last-container-footer a {
+    padding: 10px;
 }
 
-.download img {
+.last-container-footer img {
+    margin-top: 40px;
     border: 1px solid white;
     border-radius: 5px;
-    height: 40px;
+    height: 37px;
 }
